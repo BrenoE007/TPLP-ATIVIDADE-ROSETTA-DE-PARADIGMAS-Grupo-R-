@@ -1,0 +1,194 @@
+{
+  "caso1": {
+    "ciclo": null,
+    "liberadas": [
+      "CC0104",
+      "CC0110",
+      "CC0112",
+      "CC0113",
+      "CC0114",
+      "CC0115"
+    ],
+    "bloqueadas": [
+      {
+        "codigo": "CC0106",
+        "faltam": [
+          "CC0104"
+        ]
+      },
+      {
+        "codigo": "CC0107",
+        "faltam": [
+          "CC0104"
+        ]
+      }
+    ],
+    "grades_maximas": [
+      [
+        "CC0104",
+        "CC0112",
+        "CC0114",
+        "CC0115"
+      ],
+      [
+        "CC0104",
+        "CC0113",
+        "CC0114",
+        "CC0115"
+      ],
+      [
+        "CC0110",
+        "CC0112",
+        "CC0114",
+        "CC0115"
+      ],
+      [
+        "CC0110",
+        "CC0113",
+        "CC0114",
+        "CC0115"
+      ]
+    ]
+  },
+  "caso2": {
+    "ciclo": [
+      "CC0106",
+      "CC0109",
+      "CC0106"
+    ],
+    "liberadas": null,
+    "bloqueadas": null,
+    "grades_maximas": null
+  },
+  "caso3": {
+    "ciclo": null,
+    "liberadas": [
+      "CC0115"
+    ],
+    "bloqueadas": [
+      {
+        "codigo": "CC0104",
+        "faltam": [
+          "CC0103"
+        ]
+      },
+      {
+        "codigo": "CC0106",
+        "faltam": [
+          "CC0102",
+          "CC0104"
+        ]
+      },
+      {
+        "codigo": "CC0107",
+        "faltam": [
+          "CC0104"
+        ]
+      },
+      {
+        "codigo": "CC0110",
+        "faltam": [
+          "CC0105"
+        ]
+      },
+      {
+        "codigo": "CC0112",
+        "faltam": [
+          "CC0102"
+        ]
+      },
+      {
+        "codigo": "CC0113",
+        "faltam": [
+          "CC0102"
+        ]
+      },
+      {
+        "codigo": "CC0114",
+        "faltam": [
+          "CC0103"
+        ]
+      }
+    ],
+    "grades_maximas": [
+      [
+        "CC0115"
+      ]
+    ]
+  },
+  "caso4": {
+    "ciclo": null,
+    "liberadas": [],
+    "bloqueadas": [],
+    "grades_maximas": [
+      []
+    ]
+  },
+  "caso5": {
+    "ciclo": null,
+    "liberadas": [
+      "CC0104",
+      "CC0110",
+      "CC0112",
+      "CC0113",
+      "CC0114",
+      "CC0115"
+    ],
+    "bloqueadas": [
+      {
+        "codigo": "CC0106",
+        "faltam": [
+          "CC0104"
+        ]
+      },
+      {
+        "codigo": "CC0107",
+        "faltam": [
+          "CC0104"
+        ]
+      }
+    ],
+    "grades_maximas": [
+      [
+        "CC0104",
+        "CC0112",
+        "CC0115"
+      ],
+      [
+        "CC0104",
+        "CC0113",
+        "CC0115"
+      ],
+      [
+        "CC0104",
+        "CC0114",
+        "CC0115"
+      ],
+      [
+        "CC0110",
+        "CC0112",
+        "CC0115"
+      ],
+      [
+        "CC0110",
+        "CC0113",
+        "CC0115"
+      ],
+      [
+        "CC0110",
+        "CC0114",
+        "CC0115"
+      ],
+      [
+        "CC0112",
+        "CC0114",
+        "CC0115"
+      ],
+      [
+        "CC0113",
+        "CC0114",
+        "CC0115"
+      ]
+    ]
+  }
+}

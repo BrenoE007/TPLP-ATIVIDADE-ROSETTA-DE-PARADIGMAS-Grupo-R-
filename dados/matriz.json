@@ -1,0 +1,121 @@
+{
+  "disciplinas": [
+    {
+      "codigo": "CC0101",
+      "nome": "Algoritmos I",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC0102",
+      "nome": "Matemática Discreta",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC0103",
+      "nome": "Algoritmos II",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC0104",
+      "nome": "Estrutura de Dados",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0103"
+      ]
+    },
+    {
+      "codigo": "CC0105",
+      "nome": "Arquitetura de Computadores",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC0106",
+      "nome": "Teoria dos Grafos",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0102",
+        "CC0104"
+      ]
+    },
+    {
+      "codigo": "CC0107",
+      "nome": "Banco de Dados",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0104"
+      ]
+    },
+    {
+      "codigo": "CC0108",
+      "nome": "Sistemas Operacionais",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0105",
+        "CC0104"
+      ]
+    },
+    {
+      "codigo": "CC0109",
+      "nome": "Compiladores",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0106",
+        "CC0114"
+      ]
+    },
+    {
+      "codigo": "CC0110",
+      "nome": "Redes de Computadores",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0105"
+      ]
+    },
+    {
+      "codigo": "CC0111",
+      "nome": "Engenharia de Software",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0107"
+      ]
+    },
+    {
+      "codigo": "CC0112",
+      "nome": "Métodos Numéricos",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0102"
+      ]
+    },
+    {
+      "codigo": "CC0113",
+      "nome": "Probabilidade e Estatística",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0102"
+      ]
+    },
+    {
+      "codigo": "CC0114",
+      "nome": "Teoria e Paradigmas de LP",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0103"
+      ]
+    },
+    {
+      "codigo": "CC0115",
+      "nome": "Libras",
+      "ch": 30,
+      "prerequisitos": []
+    }
+  ]
+}

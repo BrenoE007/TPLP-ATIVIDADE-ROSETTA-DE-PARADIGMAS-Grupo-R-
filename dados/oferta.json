@@ -1,0 +1,104 @@
+{
+  "oferta": [
+    {
+      "codigo": "CC0104",
+      "horarios": [
+        {
+          "dia": "SEG",
+          "turno": "M"
+        },
+        {
+          "dia": "QUA",
+          "turno": "M"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0106",
+      "horarios": [
+        {
+          "dia": "SEG",
+          "turno": "T"
+        },
+        {
+          "dia": "QUA",
+          "turno": "T"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0107",
+      "horarios": [
+        {
+          "dia": "TER",
+          "turno": "T"
+        },
+        {
+          "dia": "QUI",
+          "turno": "T"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0110",
+      "horarios": [
+        {
+          "dia": "SEG",
+          "turno": "M"
+        },
+        {
+          "dia": "QUI",
+          "turno": "T"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0112",
+      "horarios": [
+        {
+          "dia": "TER",
+          "turno": "M"
+        },
+        {
+          "dia": "QUI",
+          "turno": "M"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0113",
+      "horarios": [
+        {
+          "dia": "TER",
+          "turno": "M"
+        },
+        {
+          "dia": "SEX",
+          "turno": "M"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0114",
+      "horarios": [
+        {
+          "dia": "QUA",
+          "turno": "T"
+        },
+        {
+          "dia": "SEX",
+          "turno": "T"
+        }
+      ]
+    },
+    {
+      "codigo": "CC0115",
+      "horarios": [
+        {
+          "dia": "TER",
+          "turno": "T"
+        }
+      ]
+    }
+  ]
+}

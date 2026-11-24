@@ -1,0 +1,13 @@
+cenario,regime,versao,amostras,mediana_ms,minimo_ms,iqr_ms
+original,frio,imperativa,20,588.1077,61.8588,982.004225
+original,frio,funcional,20,1034.11695,62.6793,980.0831
+original,frio,oo,20,71.43695,65.2938,977.2668
+original,quente,imperativa,1000,0.0661,0.0643,0.0043
+original,quente,funcional,1000,0.2857,0.2794,0.007525
+original,quente,oo,1000,0.027,0.0262,0.0012
+ampliado_200,frio,imperativa,20,558.1397,61.7516,984.429775
+ampliado_200,frio,funcional,20,75.44145,65.2363,984.899825
+ampliado_200,frio,oo,20,1045.11195,66.2964,982.610925
+ampliado_200,quente,imperativa,1000,0.1502,0.1462,0.0045
+ampliado_200,quente,funcional,1000,3.0862,2.8468,0.19955
+ampliado_200,quente,oo,1000,0.0781,0.0729,0.0065

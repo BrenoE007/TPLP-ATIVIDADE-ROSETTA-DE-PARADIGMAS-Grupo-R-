@@ -1,0 +1,1477 @@
+{
+  "disciplinas": [
+    {
+      "codigo": "CC0101",
+      "nome": "Algoritmos I",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC0102",
+      "nome": "Matemática Discreta",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC0103",
+      "nome": "Algoritmos II",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC0104",
+      "nome": "Estrutura de Dados",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0103"
+      ]
+    },
+    {
+      "codigo": "CC0105",
+      "nome": "Arquitetura de Computadores",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC0106",
+      "nome": "Teoria dos Grafos",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0102",
+        "CC0104"
+      ]
+    },
+    {
+      "codigo": "CC0107",
+      "nome": "Banco de Dados",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0104"
+      ]
+    },
+    {
+      "codigo": "CC0108",
+      "nome": "Sistemas Operacionais",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0105",
+        "CC0104"
+      ]
+    },
+    {
+      "codigo": "CC0109",
+      "nome": "Compiladores",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0106",
+        "CC0114"
+      ]
+    },
+    {
+      "codigo": "CC0110",
+      "nome": "Redes de Computadores",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0105"
+      ]
+    },
+    {
+      "codigo": "CC0111",
+      "nome": "Engenharia de Software",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0107"
+      ]
+    },
+    {
+      "codigo": "CC0112",
+      "nome": "Métodos Numéricos",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0102"
+      ]
+    },
+    {
+      "codigo": "CC0113",
+      "nome": "Probabilidade e Estatística",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0102"
+      ]
+    },
+    {
+      "codigo": "CC0114",
+      "nome": "Teoria e Paradigmas de LP",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0103"
+      ]
+    },
+    {
+      "codigo": "CC0115",
+      "nome": "Libras",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1000",
+      "nome": "Disciplina Ampliada 001",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1001",
+      "nome": "Disciplina Ampliada 002",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1002",
+      "nome": "Disciplina Ampliada 003",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1001"
+      ]
+    },
+    {
+      "codigo": "CC1003",
+      "nome": "Disciplina Ampliada 004",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1004",
+      "nome": "Disciplina Ampliada 005",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1005",
+      "nome": "Disciplina Ampliada 006",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1004"
+      ]
+    },
+    {
+      "codigo": "CC1006",
+      "nome": "Disciplina Ampliada 007",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1007",
+      "nome": "Disciplina Ampliada 008",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1008",
+      "nome": "Disciplina Ampliada 009",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1007"
+      ]
+    },
+    {
+      "codigo": "CC1009",
+      "nome": "Disciplina Ampliada 010",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1010",
+      "nome": "Disciplina Ampliada 011",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1011",
+      "nome": "Disciplina Ampliada 012",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1010"
+      ]
+    },
+    {
+      "codigo": "CC1012",
+      "nome": "Disciplina Ampliada 013",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1013",
+      "nome": "Disciplina Ampliada 014",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1014",
+      "nome": "Disciplina Ampliada 015",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1013"
+      ]
+    },
+    {
+      "codigo": "CC1015",
+      "nome": "Disciplina Ampliada 016",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1016",
+      "nome": "Disciplina Ampliada 017",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1017",
+      "nome": "Disciplina Ampliada 018",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1016"
+      ]
+    },
+    {
+      "codigo": "CC1018",
+      "nome": "Disciplina Ampliada 019",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1019",
+      "nome": "Disciplina Ampliada 020",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1020",
+      "nome": "Disciplina Ampliada 021",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1019"
+      ]
+    },
+    {
+      "codigo": "CC1021",
+      "nome": "Disciplina Ampliada 022",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1022",
+      "nome": "Disciplina Ampliada 023",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1023",
+      "nome": "Disciplina Ampliada 024",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1022"
+      ]
+    },
+    {
+      "codigo": "CC1024",
+      "nome": "Disciplina Ampliada 025",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1025",
+      "nome": "Disciplina Ampliada 026",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1026",
+      "nome": "Disciplina Ampliada 027",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1025"
+      ]
+    },
+    {
+      "codigo": "CC1027",
+      "nome": "Disciplina Ampliada 028",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1028",
+      "nome": "Disciplina Ampliada 029",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1029",
+      "nome": "Disciplina Ampliada 030",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1028"
+      ]
+    },
+    {
+      "codigo": "CC1030",
+      "nome": "Disciplina Ampliada 031",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1031",
+      "nome": "Disciplina Ampliada 032",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1032",
+      "nome": "Disciplina Ampliada 033",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1031"
+      ]
+    },
+    {
+      "codigo": "CC1033",
+      "nome": "Disciplina Ampliada 034",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1034",
+      "nome": "Disciplina Ampliada 035",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1035",
+      "nome": "Disciplina Ampliada 036",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1034"
+      ]
+    },
+    {
+      "codigo": "CC1036",
+      "nome": "Disciplina Ampliada 037",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1037",
+      "nome": "Disciplina Ampliada 038",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1038",
+      "nome": "Disciplina Ampliada 039",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1037"
+      ]
+    },
+    {
+      "codigo": "CC1039",
+      "nome": "Disciplina Ampliada 040",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1040",
+      "nome": "Disciplina Ampliada 041",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1041",
+      "nome": "Disciplina Ampliada 042",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1040"
+      ]
+    },
+    {
+      "codigo": "CC1042",
+      "nome": "Disciplina Ampliada 043",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1043",
+      "nome": "Disciplina Ampliada 044",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1044",
+      "nome": "Disciplina Ampliada 045",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1043"
+      ]
+    },
+    {
+      "codigo": "CC1045",
+      "nome": "Disciplina Ampliada 046",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1046",
+      "nome": "Disciplina Ampliada 047",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1047",
+      "nome": "Disciplina Ampliada 048",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1046"
+      ]
+    },
+    {
+      "codigo": "CC1048",
+      "nome": "Disciplina Ampliada 049",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1049",
+      "nome": "Disciplina Ampliada 050",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1050",
+      "nome": "Disciplina Ampliada 051",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1049"
+      ]
+    },
+    {
+      "codigo": "CC1051",
+      "nome": "Disciplina Ampliada 052",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1052",
+      "nome": "Disciplina Ampliada 053",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1053",
+      "nome": "Disciplina Ampliada 054",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1052"
+      ]
+    },
+    {
+      "codigo": "CC1054",
+      "nome": "Disciplina Ampliada 055",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1055",
+      "nome": "Disciplina Ampliada 056",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1056",
+      "nome": "Disciplina Ampliada 057",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1055"
+      ]
+    },
+    {
+      "codigo": "CC1057",
+      "nome": "Disciplina Ampliada 058",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1058",
+      "nome": "Disciplina Ampliada 059",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1059",
+      "nome": "Disciplina Ampliada 060",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1058"
+      ]
+    },
+    {
+      "codigo": "CC1060",
+      "nome": "Disciplina Ampliada 061",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1061",
+      "nome": "Disciplina Ampliada 062",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1062",
+      "nome": "Disciplina Ampliada 063",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1061"
+      ]
+    },
+    {
+      "codigo": "CC1063",
+      "nome": "Disciplina Ampliada 064",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1064",
+      "nome": "Disciplina Ampliada 065",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1065",
+      "nome": "Disciplina Ampliada 066",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1064"
+      ]
+    },
+    {
+      "codigo": "CC1066",
+      "nome": "Disciplina Ampliada 067",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1067",
+      "nome": "Disciplina Ampliada 068",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1068",
+      "nome": "Disciplina Ampliada 069",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1067"
+      ]
+    },
+    {
+      "codigo": "CC1069",
+      "nome": "Disciplina Ampliada 070",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1070",
+      "nome": "Disciplina Ampliada 071",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1071",
+      "nome": "Disciplina Ampliada 072",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1070"
+      ]
+    },
+    {
+      "codigo": "CC1072",
+      "nome": "Disciplina Ampliada 073",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1073",
+      "nome": "Disciplina Ampliada 074",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1074",
+      "nome": "Disciplina Ampliada 075",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1073"
+      ]
+    },
+    {
+      "codigo": "CC1075",
+      "nome": "Disciplina Ampliada 076",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1076",
+      "nome": "Disciplina Ampliada 077",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1077",
+      "nome": "Disciplina Ampliada 078",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1076"
+      ]
+    },
+    {
+      "codigo": "CC1078",
+      "nome": "Disciplina Ampliada 079",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1079",
+      "nome": "Disciplina Ampliada 080",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1080",
+      "nome": "Disciplina Ampliada 081",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1079"
+      ]
+    },
+    {
+      "codigo": "CC1081",
+      "nome": "Disciplina Ampliada 082",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1082",
+      "nome": "Disciplina Ampliada 083",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1083",
+      "nome": "Disciplina Ampliada 084",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1082"
+      ]
+    },
+    {
+      "codigo": "CC1084",
+      "nome": "Disciplina Ampliada 085",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1085",
+      "nome": "Disciplina Ampliada 086",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1086",
+      "nome": "Disciplina Ampliada 087",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1085"
+      ]
+    },
+    {
+      "codigo": "CC1087",
+      "nome": "Disciplina Ampliada 088",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1088",
+      "nome": "Disciplina Ampliada 089",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1089",
+      "nome": "Disciplina Ampliada 090",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1088"
+      ]
+    },
+    {
+      "codigo": "CC1090",
+      "nome": "Disciplina Ampliada 091",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1091",
+      "nome": "Disciplina Ampliada 092",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1092",
+      "nome": "Disciplina Ampliada 093",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1091"
+      ]
+    },
+    {
+      "codigo": "CC1093",
+      "nome": "Disciplina Ampliada 094",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1094",
+      "nome": "Disciplina Ampliada 095",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1095",
+      "nome": "Disciplina Ampliada 096",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1094"
+      ]
+    },
+    {
+      "codigo": "CC1096",
+      "nome": "Disciplina Ampliada 097",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1097",
+      "nome": "Disciplina Ampliada 098",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1098",
+      "nome": "Disciplina Ampliada 099",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1097"
+      ]
+    },
+    {
+      "codigo": "CC1099",
+      "nome": "Disciplina Ampliada 100",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1100",
+      "nome": "Disciplina Ampliada 101",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1101",
+      "nome": "Disciplina Ampliada 102",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1100"
+      ]
+    },
+    {
+      "codigo": "CC1102",
+      "nome": "Disciplina Ampliada 103",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1103",
+      "nome": "Disciplina Ampliada 104",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1104",
+      "nome": "Disciplina Ampliada 105",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1103"
+      ]
+    },
+    {
+      "codigo": "CC1105",
+      "nome": "Disciplina Ampliada 106",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1106",
+      "nome": "Disciplina Ampliada 107",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1107",
+      "nome": "Disciplina Ampliada 108",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1106"
+      ]
+    },
+    {
+      "codigo": "CC1108",
+      "nome": "Disciplina Ampliada 109",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1109",
+      "nome": "Disciplina Ampliada 110",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1110",
+      "nome": "Disciplina Ampliada 111",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1109"
+      ]
+    },
+    {
+      "codigo": "CC1111",
+      "nome": "Disciplina Ampliada 112",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1112",
+      "nome": "Disciplina Ampliada 113",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1113",
+      "nome": "Disciplina Ampliada 114",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1112"
+      ]
+    },
+    {
+      "codigo": "CC1114",
+      "nome": "Disciplina Ampliada 115",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1115",
+      "nome": "Disciplina Ampliada 116",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1116",
+      "nome": "Disciplina Ampliada 117",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1115"
+      ]
+    },
+    {
+      "codigo": "CC1117",
+      "nome": "Disciplina Ampliada 118",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1118",
+      "nome": "Disciplina Ampliada 119",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1119",
+      "nome": "Disciplina Ampliada 120",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1118"
+      ]
+    },
+    {
+      "codigo": "CC1120",
+      "nome": "Disciplina Ampliada 121",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1121",
+      "nome": "Disciplina Ampliada 122",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1122",
+      "nome": "Disciplina Ampliada 123",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1121"
+      ]
+    },
+    {
+      "codigo": "CC1123",
+      "nome": "Disciplina Ampliada 124",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1124",
+      "nome": "Disciplina Ampliada 125",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1125",
+      "nome": "Disciplina Ampliada 126",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1124"
+      ]
+    },
+    {
+      "codigo": "CC1126",
+      "nome": "Disciplina Ampliada 127",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1127",
+      "nome": "Disciplina Ampliada 128",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1128",
+      "nome": "Disciplina Ampliada 129",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1127"
+      ]
+    },
+    {
+      "codigo": "CC1129",
+      "nome": "Disciplina Ampliada 130",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1130",
+      "nome": "Disciplina Ampliada 131",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1131",
+      "nome": "Disciplina Ampliada 132",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1130"
+      ]
+    },
+    {
+      "codigo": "CC1132",
+      "nome": "Disciplina Ampliada 133",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1133",
+      "nome": "Disciplina Ampliada 134",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1134",
+      "nome": "Disciplina Ampliada 135",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1133"
+      ]
+    },
+    {
+      "codigo": "CC1135",
+      "nome": "Disciplina Ampliada 136",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1136",
+      "nome": "Disciplina Ampliada 137",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1137",
+      "nome": "Disciplina Ampliada 138",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1136"
+      ]
+    },
+    {
+      "codigo": "CC1138",
+      "nome": "Disciplina Ampliada 139",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1139",
+      "nome": "Disciplina Ampliada 140",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1140",
+      "nome": "Disciplina Ampliada 141",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1139"
+      ]
+    },
+    {
+      "codigo": "CC1141",
+      "nome": "Disciplina Ampliada 142",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1142",
+      "nome": "Disciplina Ampliada 143",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1143",
+      "nome": "Disciplina Ampliada 144",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1142"
+      ]
+    },
+    {
+      "codigo": "CC1144",
+      "nome": "Disciplina Ampliada 145",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1145",
+      "nome": "Disciplina Ampliada 146",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1146",
+      "nome": "Disciplina Ampliada 147",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1145"
+      ]
+    },
+    {
+      "codigo": "CC1147",
+      "nome": "Disciplina Ampliada 148",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1148",
+      "nome": "Disciplina Ampliada 149",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1149",
+      "nome": "Disciplina Ampliada 150",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1148"
+      ]
+    },
+    {
+      "codigo": "CC1150",
+      "nome": "Disciplina Ampliada 151",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1151",
+      "nome": "Disciplina Ampliada 152",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1152",
+      "nome": "Disciplina Ampliada 153",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1151"
+      ]
+    },
+    {
+      "codigo": "CC1153",
+      "nome": "Disciplina Ampliada 154",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1154",
+      "nome": "Disciplina Ampliada 155",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1155",
+      "nome": "Disciplina Ampliada 156",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1154"
+      ]
+    },
+    {
+      "codigo": "CC1156",
+      "nome": "Disciplina Ampliada 157",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1157",
+      "nome": "Disciplina Ampliada 158",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1158",
+      "nome": "Disciplina Ampliada 159",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1157"
+      ]
+    },
+    {
+      "codigo": "CC1159",
+      "nome": "Disciplina Ampliada 160",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1160",
+      "nome": "Disciplina Ampliada 161",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1161",
+      "nome": "Disciplina Ampliada 162",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1160"
+      ]
+    },
+    {
+      "codigo": "CC1162",
+      "nome": "Disciplina Ampliada 163",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1163",
+      "nome": "Disciplina Ampliada 164",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1164",
+      "nome": "Disciplina Ampliada 165",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1163"
+      ]
+    },
+    {
+      "codigo": "CC1165",
+      "nome": "Disciplina Ampliada 166",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1166",
+      "nome": "Disciplina Ampliada 167",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1167",
+      "nome": "Disciplina Ampliada 168",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1166"
+      ]
+    },
+    {
+      "codigo": "CC1168",
+      "nome": "Disciplina Ampliada 169",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1169",
+      "nome": "Disciplina Ampliada 170",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1170",
+      "nome": "Disciplina Ampliada 171",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1169"
+      ]
+    },
+    {
+      "codigo": "CC1171",
+      "nome": "Disciplina Ampliada 172",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1172",
+      "nome": "Disciplina Ampliada 173",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1173",
+      "nome": "Disciplina Ampliada 174",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1172"
+      ]
+    },
+    {
+      "codigo": "CC1174",
+      "nome": "Disciplina Ampliada 175",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1175",
+      "nome": "Disciplina Ampliada 176",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1176",
+      "nome": "Disciplina Ampliada 177",
+      "ch": 30,
+      "prerequisitos": [
+        "CC1175"
+      ]
+    },
+    {
+      "codigo": "CC1177",
+      "nome": "Disciplina Ampliada 178",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1178",
+      "nome": "Disciplina Ampliada 179",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1179",
+      "nome": "Disciplina Ampliada 180",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1178"
+      ]
+    },
+    {
+      "codigo": "CC1180",
+      "nome": "Disciplina Ampliada 181",
+      "ch": 30,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1181",
+      "nome": "Disciplina Ampliada 182",
+      "ch": 60,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    },
+    {
+      "codigo": "CC1182",
+      "nome": "Disciplina Ampliada 183",
+      "ch": 60,
+      "prerequisitos": [
+        "CC1181"
+      ]
+    },
+    {
+      "codigo": "CC1183",
+      "nome": "Disciplina Ampliada 184",
+      "ch": 60,
+      "prerequisitos": []
+    },
+    {
+      "codigo": "CC1184",
+      "nome": "Disciplina Ampliada 185",
+      "ch": 30,
+      "prerequisitos": [
+        "CC0101"
+      ]
+    }
+  ]
+}

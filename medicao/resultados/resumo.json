@@ -1,0 +1,130 @@
+{
+  "gerado_em_utc": "2026-11-24T01:56:03.971943+00:00",
+  "ambiente": {
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+    "implementacao_python": "CPython",
+    "processador": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "arquitetura": "AMD64"
+  },
+  "metodo": {
+    "repeticoes_frias": 20,
+    "iteracoes_quentes": 1000,
+    "aquecimento_descartado": 100,
+    "percentis": "interpolação linear na posição (n - 1) * p; IQR = P75 - P25",
+    "unidade_resumo": "milissegundos",
+    "relogio": "time.perf_counter_ns()",
+    "frio": "processo filho novo + import + leitura + adaptação + resolução + stdout",
+    "quente": "mesmo processo; somente resolução e formatação do objeto de resposta; sem E/S"
+  },
+  "resumos": [
+    {
+      "cenario": "original",
+      "regime": "frio",
+      "versao": "imperativa",
+      "amostras": 20,
+      "mediana_ms": 588.1077,
+      "minimo_ms": 61.8588,
+      "iqr_ms": 982.004225
+    },
+    {
+      "cenario": "original",
+      "regime": "frio",
+      "versao": "funcional",
+      "amostras": 20,
+      "mediana_ms": 1034.11695,
+      "minimo_ms": 62.6793,
+      "iqr_ms": 980.0831
+    },
+    {
+      "cenario": "original",
+      "regime": "frio",
+      "versao": "oo",
+      "amostras": 20,
+      "mediana_ms": 71.43695,
+      "minimo_ms": 65.2938,
+      "iqr_ms": 977.2668
+    },
+    {
+      "cenario": "original",
+      "regime": "quente",
+      "versao": "imperativa",
+      "amostras": 1000,
+      "mediana_ms": 0.0661,
+      "minimo_ms": 0.0643,
+      "iqr_ms": 0.0043
+    },
+    {
+      "cenario": "original",
+      "regime": "quente",
+      "versao": "funcional",
+      "amostras": 1000,
+      "mediana_ms": 0.2857,
+      "minimo_ms": 0.2794,
+      "iqr_ms": 0.007525
+    },
+    {
+      "cenario": "original",
+      "regime": "quente",
+      "versao": "oo",
+      "amostras": 1000,
+      "mediana_ms": 0.027,
+      "minimo_ms": 0.0262,
+      "iqr_ms": 0.0012
+    },
+    {
+      "cenario": "ampliado_200",
+      "regime": "frio",
+      "versao": "imperativa",
+      "amostras": 20,
+      "mediana_ms": 558.1397,
+      "minimo_ms": 61.7516,
+      "iqr_ms": 984.429775
+    },
+    {
+      "cenario": "ampliado_200",
+      "regime": "frio",
+      "versao": "funcional",
+      "amostras": 20,
+      "mediana_ms": 75.44145,
+      "minimo_ms": 65.2363,
+      "iqr_ms": 984.899825
+    },
+    {
+      "cenario": "ampliado_200",
+      "regime": "frio",
+      "versao": "oo",
+      "amostras": 20,
+      "mediana_ms": 1045.11195,
+      "minimo_ms": 66.2964,
+      "iqr_ms": 982.610925
+    },
+    {
+      "cenario": "ampliado_200",
+      "regime": "quente",
+      "versao": "imperativa",
+      "amostras": 1000,
+      "mediana_ms": 0.1502,
+      "minimo_ms": 0.1462,
+      "iqr_ms": 0.0045
+    },
+    {
+      "cenario": "ampliado_200",
+      "regime": "quente",
+      "versao": "funcional",
+      "amostras": 1000,
+      "mediana_ms": 3.0862,
+      "minimo_ms": 2.8468,
+      "iqr_ms": 0.19955
+    },
+    {
+      "cenario": "ampliado_200",
+      "regime": "quente",
+      "versao": "oo",
+      "amostras": 1000,
+      "mediana_ms": 0.0781,
+      "minimo_ms": 0.0729,
+      "iqr_ms": 0.0065
+    }
+  ]
+}

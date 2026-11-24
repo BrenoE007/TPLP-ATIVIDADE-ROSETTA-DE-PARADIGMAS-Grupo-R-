@@ -1,0 +1,12 @@
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos temporarios
+.DS_Store
+Thumbs.db

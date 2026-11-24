@@ -123,6 +123,22 @@ Dois problemas de implementação aparecem na etapa final da Pergunta 4:
 
 ---
 
+## Defeito 6 — Violação explícita das restrições do paradigma imperativo
+
+### 1. Descrição e entrada que o revela Entrada que revela
+
+a implementação utiliza a função nativa sorted() durante a busca de ciclos, apesar de o prompt proibir expressamente seu uso e exigir algoritmos de ordenação manuais.
+
+**Entrada que revela:** qualquer execução que entre na rotina de busca do caminho de um ciclo. Entretanto, a violação pode ser detectada mesmo sem executar o programa.
+
+### 2. Classificação
+
+violação das restrições do paradigma / semântica da especificação.
+
+### 3. Verificador mais barato 
+
+revisão estática ou busca textual pelas chamadas a sorted(.
+
 ## Conclusão — Conexão com a Aula 05
 
 Conforme discutido na Seção 6 ("Radar da Indústria"), o código gerado pela IA não possui erros de sintaxe e passa ileso pelo interpretador ao ser carregado. Porém, falha na bateria de testes por **suposições não declaradas** (empacotar o código numa string geradora, fixar caminhos de arquivo e adivinhar o formato JSON do histórico) e por problemas de **semântica do problema** (ignorar a variação do teto de horas entre os casos e inverter a direção do grafo de pré-requisitos ao relatar ciclos).

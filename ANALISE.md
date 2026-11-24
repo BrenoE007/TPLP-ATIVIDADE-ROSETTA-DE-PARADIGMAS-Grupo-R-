@@ -1,7 +1,5 @@
 # Análise Comparativa — T2 Rosetta de Paradigmas
 
-> **Status:** versão atualizada com diagnósticos do regime frio e configuração do computador. Antes da entrega, preencher os itens marcados **PENDENTE**, especialmente o teste de legibilidade e os créditos de autoria/revisão.
-
 ## 1. Objetivo e escopo
 
 Este documento compara três implementações do mesmo problema de planejamento de matrícula: **imperativa**, **funcional** e **orientada a objetos (OO)**. Todas foram implementadas em **Python**, permitindo estudar as diferenças de organização do programa sem introduzir, nesta comparação, linguagens de programação distintas.
@@ -32,19 +30,34 @@ A versão **funcional** emprega funções puras no núcleo, `map`, `filter`, `re
 
 A versão **OO** distribui as decisões entre entidades (`Aluno`, `Disciplina`, `Grade`, `MatrizCurricular`), restrições e um buscador. Essa separação favorece a localização de responsabilidades. Por outro lado, entender a execução completa exige navegar entre métodos e compreender a colaboração entre objetos. O código possui **11 classes** de domínio, incluindo a classe abstrata `Restricao`.
 
-### 2.2. Teste prático com leitor externo — PENDENTE
+### 2.2. Teste prático com leitor externo  
 
-O enunciado exige que **a mesma pessoa, de outro trio**, leia as três versões em ordem sorteada, registrando **tempo e erros de interpretação**. Esse experimento **não está presente** nos resultados enviados e não deve ser inventado.
+O teste foi realizado com uma pessoa de outro trio, que
+analisou as três implementações em ordem sorteada.
 
-Preencher após realizá-lo:
+| Ordem | Implementação | Tempo de leitura |  Dificuldades |
+|---|---|---|---|---|
+| 1ª | Imperativa | 15:37 | Dificuldade de lembrar valores das variaveis |
+| 2ª | OO | 23:14 |  Dificuldade para entender quando um objeto é chamado devido a quebra de fluxo |
+| 3ª | Funcional | 28:03 | Dificuldade em entender a abstração das funções |
 
-| Ordem sorteada | Implementação | Tempo de leitura | O que o leitor entendeu incorretamente |
-|---|---|---|---|
-| **PENDENTE** | **PENDENTE** | **PENDENTE** | **PENDENTE** |
-| **PENDENTE** | **PENDENTE** | **PENDENTE** | **PENDENTE** |
-| **PENDENTE** | **PENDENTE** | **PENDENTE** | **PENDENTE** |
+#### Observações
 
-Pedir ao leitor que explique, sem auxílio, onde cada versão detecta ciclos, verifica pré-requisitos, valida horários e decide quais grades são máximas. Os erros relatados são evidência tão importante quanto o tempo gasto.
+Os tempos de leitura foram registrados individualmente
+Após cada leitura, o participante explicou o funcionamento
+das quatro perguntas do problema.
+
+As interpretações foram comparadas com o comportamento real
+do código, permitindo identificar dificuldades de compreensão.
+
+#### Conclusão
+
+Apesar do codigo com o paradigma Imperativo foi o que teve a 
+leitura mais rapido por ser linear, o leitor relatou que 
+o codigo com maior facilidade de leitura foi o orientado a 
+objeto, mesmo com sua constante quebra de fluxo, o codigo funcional
+se mostrou aquele que o leitor teve a maior dificuldade de compreensão 
+
 
 ## 3. Expressividade
 
@@ -194,15 +207,15 @@ A ampliação da **matriz** aumenta principalmente o trabalho com disciplinas e 
 
 ## 5. Conclusão
 
-Para este problema, a versão **orientada a objetos** mostrou-se uma escolha adequada: os conceitos de aluno, disciplina, matriz, grade e restrições correspondem bem a objetos com responsabilidades próprias. O método `permite()` nas subclasses de `Restricao` demonstra polimorfismo real e facilita acrescentar novas regras sem reescrever o buscador. A versão OO também apresentou as menores medianas no **regime quente**, embora isso seja um resultado das implementações examinadas e não uma prova de superioridade geral do paradigma.
+Para este problema, a versão **orientada a objetos** mostrou-se uma escolha adequada: os conceitos de aluno, disciplina, matriz, grade e restrições correspondem bem a objetos com responsabilidades próprias. O método `permite()` nas subclasses de `Restricao` demonstra polimorfismo real e facilita acrescentar novas regras sem reescrever o buscador, a versão orientada objetos também conta com uma melhor compreensão por parte dos leitores alem de mais facil de desenvolver e de manter e de aprender. A versão OO também apresentou as menores medianas no **regime quente**, embora isso seja um resultado das implementações examinadas e não uma prova de superioridade geral do paradigma.
 
-A versão **funcional** favorece a descrição declarativa de transformações e o controle explícito de efeitos, mas seu uso de buscas repetidas sobre tuplas elevou o custo observado com a matriz ampliada. A versão **imperativa** tornou os percursos explícitos e previsíveis, porém parte de sua verbosidade resultou das construções proibidas pelo exercício. A resposta sobre qual paradigma é mais adequado poderia mudar se a prioridade fosse, por exemplo, transformação de dados imutáveis, facilidade de extensão das regras ou implementação de estruturas de acesso mais eficientes. O resultado final deve considerar **correção, clareza, facilidade de manutenção e desempenho**, sem confundir um algoritmo específico com o paradigma inteiro.
+A versão **funcional** favorece a descrição declarativa de transformações e o controle explícito de efeitos, mas seu uso de buscas repetidas sobre tuplas elevou o custo observado com a matriz ampliada alem de dificultar a legibilidade do codigo. A versão **imperativa** tornou os percursos explícitos e previsíveis, porém parte de sua verbosidade resultou das construções proibidas pelo exercício alem disso, a versão imperativa se mostrou a com pior redibilidade onde fica mais complicato de desenvolver conforme o aumento de linhas do codigo. A resposta sobre qual paradigma é mais adequado poderia mudar se a prioridade fosse, por exemplo, transformação de dados imutáveis, facilidade de extensão das regras ou implementação de estruturas de acesso mais eficientes. O resultado final deve considerar **correção, clareza, facilidade de manutenção e desempenho**, sem confundir um algoritmo específico com o paradigma inteiro.
 
 
 ## 6. REVISÃO 
 
   | Versão | Autor(es) | Revisor(es) |
   |---|---|---|
-  | Imperativa | **PENDENTE** | **PENDENTE** |
-  | Funcional | **PENDENTE** | **PENDENTE** |
-  | OO | **PENDENTE** | **PENDENTE** |
+  | Imperativa | Breno e Fernando| Felipe |
+  | Funcional | Gabriel e Fernando| Felipe |
+  | OO | Luan | Fernando e Felipe |

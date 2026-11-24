@@ -58,6 +58,7 @@ O último comando executa as **três implementações nos cinco casos oficiais**
 │   ├── PROMPT.md                # Prompt utilizado na geração por IA
 │   └── RESPOSTA-ORIGINAL/       # Código original produzido pela IA
 ├── medicao/
+│   ├── __init__.py              # Identificador e configurador da pasta
 │   ├── adaptadores.py           # Adapta os dados para cada implementação
 │   ├── executar.py              # Executa uma versão por linha de comando
 │   ├── testar.py                # Testes de equivalência das três versões
@@ -65,6 +66,9 @@ O último comando executa as **três implementações nos cinco casos oficiais**
 │   ├── medir.py                 # Medições de desempenho
 │   ├── dados/                   # Matriz ampliada para os experimentos
 │   ├── resultados/              # Amostras e estatísticas registradas
+│   ├── diagnostico_etapas.py    # Diagnostico de etapas
+│   ├── diagnostico_frio.py      # Diagnostico dos programas 
+│   ├── diagnostico_sistema      # Diagnostico do python 
 │   └── README.md                # Documentação detalhada do arnês
 ├── ANALISE.md                   # Comparação dos paradigmas e desempenho
 ├── AUDITORIA.md                 # Auditoria do código gerado por IA

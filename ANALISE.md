@@ -198,16 +198,3 @@ Para este problema, a versão **orientada a objetos** mostrou-se uma escolha ade
 
 A versão **funcional** favorece a descrição declarativa de transformações e o controle explícito de efeitos, mas seu uso de buscas repetidas sobre tuplas elevou o custo observado com a matriz ampliada. A versão **imperativa** tornou os percursos explícitos e previsíveis, porém parte de sua verbosidade resultou das construções proibidas pelo exercício. A resposta sobre qual paradigma é mais adequado poderia mudar se a prioridade fosse, por exemplo, transformação de dados imutáveis, facilidade de extensão das regras ou implementação de estruturas de acesso mais eficientes. O resultado final deve considerar **correção, clareza, facilidade de manutenção e desempenho**, sem confundir um algoritmo específico com o paradigma inteiro.
 
-## 6. Pendências antes da entrega
-
-- [ ] Realizar o **teste de legibilidade** com uma pessoa de outro trio; preencher tempo, ordem sorteada e erros de compreensão.
-- [x] Confirmar o **modelo do processador** e a **quantidade de RAM** da máquina usada nas medições.
-- [x] **Investigar a variabilidade do regime frio** por meio de diagnósticos de controle. Os dados e a limitação estão documentados na seção 4.4. Uma repetição em outro ambiente é opcional para confirmação adicional.
-- [ ] Registrar **quem escreveu e quem revisou** cada implementação, conforme solicitado no enunciado:
-  
-  | Versão | Autor(es) | Revisor(es) |
-  |---|---|---|
-  | Imperativa | **PENDENTE** | **PENDENTE** |
-  | Funcional | **PENDENTE** | **PENDENTE** |
-  | OO | **PENDENTE** | **PENDENTE** |
-- [ ] Conferir que `README.md` na raiz documenta execução, validação e reprodução das medições.

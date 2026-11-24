@@ -198,3 +198,11 @@ Para este problema, a versão **orientada a objetos** mostrou-se uma escolha ade
 
 A versão **funcional** favorece a descrição declarativa de transformações e o controle explícito de efeitos, mas seu uso de buscas repetidas sobre tuplas elevou o custo observado com a matriz ampliada. A versão **imperativa** tornou os percursos explícitos e previsíveis, porém parte de sua verbosidade resultou das construções proibidas pelo exercício. A resposta sobre qual paradigma é mais adequado poderia mudar se a prioridade fosse, por exemplo, transformação de dados imutáveis, facilidade de extensão das regras ou implementação de estruturas de acesso mais eficientes. O resultado final deve considerar **correção, clareza, facilidade de manutenção e desempenho**, sem confundir um algoritmo específico com o paradigma inteiro.
 
+
+## 6. REVISÃO 
+
+  | Versão | Autor(es) | Revisor(es) |
+  |---|---|---|
+  | Imperativa | **PENDENTE** | **PENDENTE** |
+  | Funcional | **PENDENTE** | **PENDENTE** |
+  | OO | **PENDENTE** | **PENDENTE** |

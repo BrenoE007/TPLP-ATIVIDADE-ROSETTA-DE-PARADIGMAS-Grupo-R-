@@ -35,10 +35,10 @@ A versão **OO** distribui as decisões entre entidades (`Aluno`, `Disciplina`, 
 O teste foi realizado com uma pessoa de outro trio, que
 analisou as três implementações em ordem sorteada.
 
-| Ordem | Implementação | Tempo de leitura |  Dificuldades |
-|---|---|---|---|---|
-| 1ª | Imperativa | 15:37 | Dificuldade de lembrar valores das variaveis |
-| 2ª | OO | 23:14 |  Dificuldade para entender quando um objeto é chamado devido a quebra de fluxo |
+| Ordem | Implementação | Tempo de leitura | Dificuldades |
+|---|---:|---:|---:|
+| 1ª | Imperativa | 15:37  | Dificuldade de reconhecer valores das variaveis |
+| 2ª | OO | 23:14 | Dificuldade de entender o fluxo devido a sua constante quebra |
 | 3ª | Funcional | 28:03 | Dificuldade em entender a abstração das funções |
 
 #### Observações
@@ -207,7 +207,7 @@ A ampliação da **matriz** aumenta principalmente o trabalho com disciplinas e 
 
 ## 5. Conclusão
 
-Para este problema, a versão **orientada a objetos** mostrou-se uma escolha adequada: os conceitos de aluno, disciplina, matriz, grade e restrições correspondem bem a objetos com responsabilidades próprias. O método `permite()` nas subclasses de `Restricao` demonstra polimorfismo real e facilita acrescentar novas regras sem reescrever o buscador, a versão orientada objetos também conta com uma melhor compreensão por parte dos leitores alem de mais facil de desenvolver e de manter e de aprender. A versão OO também apresentou as menores medianas no **regime quente**, embora isso seja um resultado das implementações examinadas e não uma prova de superioridade geral do paradigma.
+Para este problema, a versão **orientada a objetos** mostrou-se uma escolha adequada: os conceitos de aluno, disciplina, matriz, grade e restrições correspondem bem a objetos com responsabilidades próprias. O método `permite()` nas subclasses de `Restricao` demonstra polimorfismo real e facilita acrescentar novas regras sem reescrever o buscador, a versão orientada objetos também conta com uma melhor compreensão por parte dos leitores, também se mostrou entre os usuarios, o paradigma com a menor dificuldade de assimilação, tornando seu desenvolvimento e manutenção facilitado. A versão OO também apresentou as menores medianas no **regime quente**, embora isso seja um resultado das implementações examinadas e não uma prova de superioridade geral do paradigma.
 
 A versão **funcional** favorece a descrição declarativa de transformações e o controle explícito de efeitos, mas seu uso de buscas repetidas sobre tuplas elevou o custo observado com a matriz ampliada alem de dificultar a legibilidade do codigo. A versão **imperativa** tornou os percursos explícitos e previsíveis, porém parte de sua verbosidade resultou das construções proibidas pelo exercício alem disso, a versão imperativa se mostrou a com pior redibilidade onde fica mais complicato de desenvolver conforme o aumento de linhas do codigo. A resposta sobre qual paradigma é mais adequado poderia mudar se a prioridade fosse, por exemplo, transformação de dados imutáveis, facilidade de extensão das regras ou implementação de estruturas de acesso mais eficientes. O resultado final deve considerar **correção, clareza, facilidade de manutenção e desempenho**, sem confundir um algoritmo específico com o paradigma inteiro.
 
